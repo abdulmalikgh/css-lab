@@ -39,19 +39,21 @@ div{
 .containerFour{
     background-color:green;
 }
-/*  medium tablet*/
+/*  medium desktop*/
 @media screen and (max-width:1200px){
  .containerTwo,.containerOne{
      width:100%;
 
  }
- .containerTwo,.containerFour{
-     width:
- }
+
 }
+/* tablet */
 @media screen and (max-width:768px){
-    div{
-        width:100%;
+    .containerThree{
+        width:50%;
+    }
+    .containerFour{
+        width: 50%;
     }
 }
 
